@@ -25,3 +25,18 @@ CS50 Problem Sets Solutions | 2021
    4
 ```
 
+
+
+* ### Pset 1: Mario Pyramids
+
+   Creating pyramids like Mario world.<br>
+   https://gist.github.com/aryan1107/796f785daed4863b568fef0d252d6531<br>
+   Usage Example:
+```
+   $ ./mario
+   Height: 4
+       #  #
+      ##  ##
+     ###  ###
+    ####  ####
+```
