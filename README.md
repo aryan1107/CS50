@@ -57,7 +57,7 @@ CS50 Problem Sets Solutions | 2021
 * ### Pset 2: Caesar
 
    Implement a program that encrypts messages using Caesar’s cipher, usage example below.<br>
-   https://gist.github.com/aryan1107/3b207617ea26e68d9c5249eafd912507c<br>
+   https://gist.github.com/aryan1107/3b207617ea26e68d9c5249eafd912507<br>
    Usage Example:
 ```
    $ ./caesar 13
