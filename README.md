@@ -40,3 +40,27 @@ CS50 Problem Sets Solutions | 2021
      ###  ###
     ####  ####
 ```
+
+
+* ### Lab 2: Scrabble
+
+   Determine which of two Scrabble words is worth more.<br>
+   https://gist.github.com/aryan1107/1582af05578359632403e644e44eb22c<br>
+   Usage Example:
+```
+   $ ./scrabble
+   Player 1: COMPUTER
+   Player 2: science
+   Player 1 wins!
+```
+
+* ### Pset 2: Caesar
+
+   Implement a program that encrypts messages using Caesar’s cipher, usage example below.<br>
+   https://gist.github.com/aryan1107/3b207617ea26e68d9c5249eafd912507c<br>
+   Usage Example:
+```
+   $ ./caesar 13
+   plaintext:  HELLO
+   ciphertext: URYYB
+```
