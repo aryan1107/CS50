@@ -68,7 +68,7 @@ CS50 Problem Sets Solutions | 2021
 * ### Pset 3: Plurality
 
    Implement a program that runs a plurality election, per the example below..<br>
-   https://gist.github.com/aryan1107/3b207617ea26e68d9c5249eafd912507<br>
+   https://gist.github.com/aryan1107/4c912548a52408566ae99f7ed3b3e826<br>
    Usage Example:
 ```
    $ ./plurality Alice Bob
