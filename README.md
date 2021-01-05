@@ -64,3 +64,17 @@ CS50 Problem Sets Solutions | 2021
    plaintext:  HELLO
    ciphertext: URYYB
 ```
+
+* ### Pset 3: Plurality
+
+   Implement a program that runs a plurality election, per the example below..<br>
+   https://gist.github.com/aryan1107/3b207617ea26e68d9c5249eafd912507<br>
+   Usage Example:
+```
+   $ ./plurality Alice Bob
+   Number of voters: 3
+   Vote: Alice
+   Vote: Bob
+   Vote: Alice
+   Alice
+```
