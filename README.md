@@ -80,3 +80,35 @@ My CS50 Problem Sets Solutions | 2021
    Vote: Alice
    Alice
 ```
+
+
+* ### Pset 3: Runoff
+
+   Implement a program that runs a runoff election,per the example below..<br>
+   https://gist.github.com/aryan1107/63992326f2d763e54527d1cb1baee122<br>
+   Usage Example:
+```
+   ./runoff Alice Bob Charlie
+   Number of voters: 5
+   Rank 1: Alice
+   Rank 2: Charlie
+   Rank 3: Bob
+
+   Rank 1: Alice
+   Rank 2: Charlie
+   Rank 3: Bob
+
+   Rank 1: Bob
+   Rank 2: Charlie
+   Rank 3: Alice
+
+   Rank 1: Bob
+   Rank 2: Charlie
+   Rank 3: Alice
+
+   Rank 1: Charlie
+   Rank 2: Alice
+   Rank 3: Bob
+
+   Alice
+```
