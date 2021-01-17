@@ -112,3 +112,13 @@ My CS50 Problem Sets Solutions | 2021
 
    Alice
 ```
+
+
+* ### Lab 4: Volume
+
+   A program to modify the volume of an audio file., per the example below..<br>
+   https://gist.github.com/aryan1107/960dcccd0e4a631747381f95133ebe7c<br>
+   Usage Example:
+```
+   $ ./volume input.wav output.wav 2.0
+```
