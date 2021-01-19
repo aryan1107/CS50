@@ -122,3 +122,13 @@ My CS50 Problem Sets Solutions | 2021
 ```
    $ ./volume input.wav output.wav 2.0
 ```
+
+
+* ### Pset 4: Filter
+
+   Implement a program that applies filters to BMPs, per the example below.<br>
+   https://gist.github.com/aryan1107/2ae6a535d068f07a3f7d91125e63f661<br>
+   Usage Example: Using -r to reflect, -g for greyscale & -b for blur
+```
+   $ ./filter -r image.bmp reflected.bmp
+```
