@@ -132,3 +132,13 @@ My CS50 Problem Sets Solutions | 2021
 ```
    $ ./filter -r image.bmp reflected.bmp
 ```
+
+
+* ### Pset 4: Recover
+
+   Implement a program that recovers JPEGs from a forensic image, per the example below.<br>
+   https://gist.github.com/aryan1107/2ae6a535d068f07a3f7d91125e63f661<br>
+   Usage Example: 
+```
+   $ ./recover card.raw
+```
