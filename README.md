@@ -137,7 +137,7 @@ My CS50 Problem Sets Solutions | 2021
 * ### Pset 4: Recover
 
    Implement a program that recovers JPEGs from a forensic image, per the example below.<br>
-   https://gist.github.com/aryan1107/2ae6a535d068f07a3f7d91125e63f661<br>
+   https://gist.github.com/aryan1107/a550c54be3dcafc12476c75be4f2019b<br>
    Usage Example: 
 ```
    $ ./recover card.raw
