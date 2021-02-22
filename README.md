@@ -142,3 +142,13 @@ My CS50 Problem Sets Solutions | 2021
 ```
    $ ./recover card.raw
 ```
+
+* ### Pset 6: DNA
+
+   Implement a program that identifies a person based on their DNA, per the example below..<br>
+   https://gist.github.com/aryan1107/e1e48bb48db4f2649c6844d98b66b91c<br>
+   Usage Example: 
+```
+   $ python dna.py databases/large.csv sequences/5.txt
+   Lavender
+```
