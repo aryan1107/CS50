@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function() {
+                var right = document.getElementById("Correct");
+                var wrong = document.getElementById("wrong");
+                var wrong2 = document.getElementById("wrong2");
+                let myanswer = document.querySelector('#ans1');
+
+                let myanswer2 = document.querySelector('#ans2');
+
+
+                wrong.onclick = function (){
+                    wrong2.style.backgroundColor = "";
+                    right.style.backgroundColor = "";
+                    wrong.style.backgroundColor = "red";
+                    myanswer.innerHTML = 'Incorrect';
+                }
+                    wrong2.onclick = function (){
+                    wrong.style.backgroundColor = "";
+                    right.style.backgroundColor = "";
+                    wrong2.style.backgroundColor = "red";
+                    myanswer.innerHTML = 'Incorrect';
+                }
+                    right.onclick = function (){
+                    wrong2.style.backgroundColor = "";
+                    wrong.style.backgroundColor = "";
+                    right.style.backgroundColor = "green";
+                    myanswer.innerHTML = 'Right';
+                }
+                document.querySelector('#check').addEventListener('click', function(){
+                    let input = document.querySelector('input');
+                    if (input.value == "yes")
+                        {
+                           myanswer2.innerHTML = 'Correct';
+                           input.style.backgroundColor = "green";
+                        }
+                        else
+                        {
+                            myanswer2.innerHTML = 'Incorrect';
+                            input.style.backgroundColor = "Red";
+                        }
+                })
+            });
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Is waearing a Mask important during a pandemic?</h3>
+                <p id="ans1"></p>
+                <!-- TODO: Add multiple choice question here -->
+                <button type="button" id= "Correct">Obviousy Yes</button>
+                <button type="button" id="wrong">Yes</button>
+                <button type="button" id="wrong2">Nahhh</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Is Vaccine important?</h3>
+                <!-- TODO: Add free response question here -->
+                <input type="text" name="ans" placeholder="Type Answer">
+                <button id="check" type="submit"> Check Answer</button>
+                <p id="ans2"></p>
+            </div>
+
+        </div>
+    </body>
+</html>

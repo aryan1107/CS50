@@ -1,0 +1,31 @@
+#card:hover {
+  background-color: #3e76f5;
+  color: white;
+}
+a{
+  color:black;
+}
+a:visited {
+  color:black;
+
+}
+a:active {
+  color:#0000FF;
+
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+#theme{
+  background-color:#3e76f5;
+}
+#texttheme{
+  color:#3e76f5;
+}
+.corners{
+  border-radius: 25px;
+}
+#padding{
+  padding: 40px;
+}

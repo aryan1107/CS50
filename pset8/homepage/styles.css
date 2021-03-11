@@ -1,0 +1,118 @@
+#theme{
+  background-color:#3e76f5;
+}
+#texttheme{
+  color:#3e76f5;
+}
+#banner{
+    min-height: 708px
+}
+
+#splash{
+    margin-top: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    /*border: 1px solid red;*/
+    /*min-width: 750px;*/
+}
+#splash2{
+    margin-top: 110px;
+    position: relative;
+    display: block;
+
+}
+#splash3{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: -10%;
+    transform: translate(-50%,-50%);
+}
+.img-fluid {
+  max-width: 150%;
+  height: auto;
+}
+#lessons{
+    margin-top:60px;
+    margin-bottom:60px;
+    padding: 15px;
+
+}
+/*.row{*/
+/*    border: 4px dotted blue;*/
+/*}*/
+/*.col, [class*="col-"] {*/
+/*    border: 2px solid red*/
+/*	}*/
+
+#card:hover {
+  background-color: #3e76f5;
+  color: white;
+}
+a{
+  color:black;
+}
+a:visited {
+  color:black;
+
+}
+a:active {
+  color:#0000FF;
+
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+@media screen and (min-width: 700px) {
+  #splash2 {
+    margin-top: 110px;
+    position: static;
+  }
+  #splash3{
+    position: static;
+    margin-top: 0%;
+    margin-left: 0%;
+    transform: translate(0%,0%);
+}
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+}
+
+@media screen and (min-width: 375px) {
+  #splash2 {
+    margin-top: 110px;
+    position: static;
+  }
+  #splash3{
+    position: static;
+    margin-top: 0%;
+    margin-left: 0%;
+    transform: translate(0%,0%);
+}
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+}
+@media screen and (min-width: 1100px) {
+  #splash2 {
+    margin-top: 110px;
+    position: relative;
+    display: block;
+  }
+  #splash3{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: -10%;
+    transform: translate(-50%,-50%);
+}
+.img-fluid {
+  max-width: 150%;
+  height: auto;
+}
+}
+
